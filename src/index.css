@@ -1,13 +1,72 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+/* COLORS
+    main-color: #fcf9e6;
+    accent-bright: #a62b2b;
+    grey: #494949;
+    lightest-grey: #e8e8e8;
+    light-grey: #bbbbbb;
+    middle-grey: #777777;
+    blue: #2b5fa6;
+    yellow: #db8a2e;
+*/
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body,
+#root,
+.calc {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  background-color: #fcf9e6;
+  overflow: scroll;
+}
+
+.calc {
+  border: 2px solid black;
+  width: 330px;
+  height: 400px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 80%;
+  grid-template-areas:
+    "display"
+    "container";
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcf9e6;
+  border-top: 2px solid #a62b2b;
+  width: 100%;
+  height: 1.5rem;
+}
+
+.footer .bukulele-logo {
+  margin: 1px;
+  height: 80%;
+  width: auto;
+}
+.footer p {
+  font-size: 0.8rem;
+  color: #a62b2b;
+}
+.footer a {
+  height: 100%;
 }

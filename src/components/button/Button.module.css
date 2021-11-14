@@ -1,0 +1,50 @@
+/* COLORS
+    main-color: #fcf9e6;
+    accent-bright: #a62b2b;
+    grey: #494949;
+    lightest-grey: #e8e8e8;
+    light-grey: #bbbbbb;
+    middle-grey: #777777;
+    blue: #2b5fa6;
+    yellow: #db8a2e;
+*/
+
+.button,
+.button:visited {
+  font-family: "Montserrat", sans-serif;
+  color: #494949;
+  font-size: 2rem;
+  border: 1px solid #494949;
+  outline: none;
+}
+@media (hover: hover) {
+  .button:hover {
+    border: 2px solid #fcf9e6;
+    background-color: #494949;
+    color: #fcf9e6;
+  }
+}
+.button:active {
+  background-color: #db8a2e;
+}
+
+.digit {
+  background-color: #e8e8e8;
+  color: #494949;
+}
+
+.divide,
+.multiply,
+.subtract,
+.add {
+  background-color: #bbbbbb;
+}
+
+.clear {
+  background-color: #a62b2b;
+  color: #fcf9e6;
+}
+.equals {
+  background-color: #2b5fa6;
+  color: #fcf9e6;
+}

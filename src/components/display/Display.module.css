@@ -1,0 +1,38 @@
+/* COLORS
+    main-color: #fcf9e6;
+    accent-bright: #a62b2b;
+    grey: #494949;
+    lightest-grey: #e8e8e8;
+    light-grey: #bbbbbb;
+    middle-grey: #777777;
+    blue: #2b5fa6;
+    yellow: #db8a2e;
+*/
+
+@font-face {
+  font-family: "PixelFont";
+  src: url("../../font/VCR_OSD_MONO_1.001.ttf");
+}
+.Display {
+  width: 100%;
+  background-color: black;
+  grid-area: display;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "PixelFont", sans-serif;
+}
+.upperDisplay {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #db8a2e;
+  height: 30%;
+}
+.bottomDisplay {
+  display: flex;
+  align-items: center;
+  color: #fcf9e6;
+  font-size: 1.5rem;
+  height: 70%;
+}

@@ -1,0 +1,14 @@
+.Container {
+  width: 100%;
+  height: 100%;
+  grid-area: container;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-areas:
+    "clear clear divide multiply"
+    "seven eight nine subtract"
+    "four five six add"
+    "one two three equals"
+    "zero zero decimal equals";
+}
