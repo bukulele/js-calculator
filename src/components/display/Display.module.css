@@ -27,12 +27,14 @@
   align-items: center;
   font-size: 1.2rem;
   color: #db8a2e;
-  height: 30%;
+  min-height: 1.5rem;
+  max-height: fit-content;
+  overflow-wrap: anywhere;
 }
 .bottomDisplay {
   display: flex;
   align-items: center;
   color: #fcf9e6;
   font-size: 1.5rem;
-  height: 70%;
+  height: 3rem;
 }

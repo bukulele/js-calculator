@@ -33,14 +33,14 @@ body,
 .calc {
   border: 2px solid black;
   width: 330px;
-  height: 400px;
+  height: auto;
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 20% 80%;
+  grid-template-rows: auto 320px;
   grid-template-areas:
     "display"
     "container";

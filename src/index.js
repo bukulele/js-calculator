@@ -109,7 +109,7 @@ function App() {
         (upperDisplayInput.length > 1 && !isNaN(lastElement))
       ) {
         if (!isNaN(data)) {
-          input = lastElement + data;
+          input = lastElement.length < 22 ? lastElement + data : lastElement;
           newUpperDisplayInput.splice(
             newUpperDisplayInput.length - 1,
             1,
