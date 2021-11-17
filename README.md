@@ -13,3 +13,5 @@
 > You can see my other projects on my [github account page](https://github.com/bukulele)
 >
 > Also, you can check my [FreeCodeCamp progress](https://www.freecodecamp.org/bukulele)
+
+VCR OSD Mono font on calculator display by [Riciery Leal] (https://www.dafont.com/mrmanet.d5509)
