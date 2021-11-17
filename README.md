@@ -14,4 +14,4 @@
 >
 > Also, you can check my [FreeCodeCamp progress](https://www.freecodecamp.org/bukulele)
 
-VCR OSD Mono font on calculator display by [Riciery Leal] (https://www.dafont.com/mrmanet.d5509)
+VCR OSD Mono font on calculator display by [Riciery Leal](https://www.dafont.com/mrmanet.d5509)
